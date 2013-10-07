@@ -1,0 +1,23 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1366046739959 332 0377432d84855d4d96478d76fa5ff6a055953801 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values-v11\styles.xml
+1366046740049 14383 82acdd75e3fcc36026109406625edc69d4d7212d C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-xhdpi\ic_launcher.png
+1366046739945 695 d405b1b347fc7a1da1175981fe6d5d282a262ec5 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values\styles.xml
+1366047031278 2949 c08e7fbf8a714ddf7d95601545f2195233ee867e C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values\strings.xml
+1366046740043 9397 4a5a9affbb731f195fc18fea78d51be7db7536a2 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-hdpi\ic_launcher.png
+1366047031266 1104 cf34dab597cc709ae9daf2c08cc6787e3c1a9a0a C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\layout\activity_calibrate_step.xml
+1366047031227 4147 91c0eed42bb6ffbb3e720f4309d06edaa5ab81b1 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-hdpi\icon.png
+1366047031274 4826 ad07a02da2271f6b9da9e442b22bc3e019d222a2 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values\arrays.xml
+1366047031263 1723 dab9122f41b8f635738ab44b288f12412bbdf3ce C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-ldpi\icon.png
+1366458092632 10092 db937057f3c28ac550f10cd1c4b8b00f15d89f8b C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\xml\preferences.xml
+1366047031272 414 c71f843b05b4df3c627e4878200cf527217e4d6a C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\rss_menu.xml
+1366047031265 2574 7cbb0a80689da95c9758ccbb9b8632edc6630476 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-mdpi\icon.png
+1366047031271 1296 4872983c9d69ba41d01ee272c9c0eae9c2badaf9 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\menu.xml
+1366046740046 5237 7761bceaf18ed25cdba5f34bf00a55616d078acf C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-mdpi\ic_launcher.png
+1366046739998 389 57bc14a0d2986b60f0a0eb58f082e991e2c91eff C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values-v14\styles.xml
+1366047031269 437 21aee9287eafbd4be739c90119bd2dd3623368f2 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\layout\activity_scan.xml
+1366047031267 464 bcce0a9144fecc0835333c4f07052d5f854d1aca C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\layout\activity_pedestrian_navigation.xml
+1366047031273 637 57b7ec6f1bfaea65ca16e52c2100116c84058558 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\wifi_menu.xml
+1366047031270 560 2f69c70ba2c92d9cf95914fa4c1ee0edb8fa74c7 C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\eval_menu.xml
+1366047031225 2622 c0ca41aaf55bdaeac0250db900f9d1d8f912e9ca C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable\ic_nav.png

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+
+    <item
+        android:id="@+id/set_position"
+        android:title="@string/set_position"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/scan_code"
+        android:title="@string/scan_code"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/measurement" android:title="Add fingerprint"
+        android:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/select_floor"
+        android:title="@string/select_floor"
+        android:showAsAction="never"
+        />
+    
+    <item
+        android:id="@+id/reset_compass"
+        android:title="@string/reset_compass"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/pause"
+        android:title="@string/pause"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/help"
+        android:enabled="false"
+        android:title="@string/help"
+        android:showAsAction="never"/>
+
+</menu><!-- From: file:/C:/Users/NICKT/workspace/IndoorNavigationSandbox/res/menu/menu.xml -->

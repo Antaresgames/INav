@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+            
+	<PreferenceCategory android:title="Building plan settings" >
+	    
+	    
+	    <EditTextPreference
+            android:key="data_root_dir_preference"
+            android:summary="Root directory for application data (absolute or relative to the sdcard storage)"
+            android:title="Root data directory" />
+	    
+	    <!-- 
+	    <EditTextPreference
+            android:key="building_plan_directory_preference"
+            android:summary="Directory in which building plans reside (absolute or relative to the sdcard storage)"
+            android:title="Building plan directory" />
+         -->
+	    
+	    <!-- 
+        <EditTextPreference
+            android:key="building_plan_name_preference"
+            android:summary="Choose building plan used for navigation"
+            android:title="Building name" />
+         -->
+        
+        <ListPreference
+            android:dialogTitle="Building"
+            android:entries="@array/entries_building_plan"
+            android:entryValues="@array/entryvalues_building_plan"
+            android:key="building_plan_name_preference"
+            android:summary="Choose building plan used for navigation"
+            android:title="Building plan" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/navigation_screen_preferences" >
+
+        <CheckBoxPreference
+            android:key="draw_map_preference"
+            android:summary="@string/summary_draw_map_preference"
+            android:title="@string/title_draw_map_preference" />
+
+        <!-- 
+        <CheckBoxPreference
+            android:key="draw_particle_cloud_preference"
+            android:title="Draw particle cloud" />
+         -->
+
+        <CheckBoxPreference
+            android:key="draw_position_mark_preference"
+            android:summary="@string/summary_draw_position_mark_preference"
+            android:title="@string/title_draw_position_mark_preference" />
+        
+        <CheckBoxPreference
+            android:key="draw_wifi_visuals_preference"
+            android:summary="Toggles drawing of RSS signal levels and Delaunay triangulation"
+            android:title="Draw WiFi visuals" />
+
+        </PreferenceCategory>
+
+    <PreferenceCategory android:title="Device orientation" >
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_position_providers_preference"
+            android:entries="@array/entries_position_providers"
+            android:entryValues="@array/entryvalues_position_providers"
+            android:key="navigation_method_preference"
+            android:summary="@string/summary_navigation_method_preference"
+            android:title="Sensor stream source" />
+
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_compass_type_preference"
+            android:entries="@array/entries_compass_types"
+            android:entryValues="@array/entryvalues_compass_types"
+            android:key="compass_type_preference"
+            android:summary="@string/summary_compass_type_preference"
+            android:title="@string/title_compass_type_preference" />
+        
+        <EditTextPreference
+            android:key="acc_complementary_filter_factor_preference"
+            android:title="Accelerometer complementary filter factor"
+            android:summary="Factor for alignment against the accelerometer vector"
+            />
+        	
+        
+        <EditTextPreference
+            android:key="mag_complementary_filter_factor_preference"
+            android:title="Magnetometer complementary filter factor"
+            android:summary="Factor for alignment against the magnetometer vector"
+            />
+        
+        <Preference 
+            android:key="accel_calibration"
+            android:title="Accelerometer calibration"
+            android:summary="Lay your device on a flat surface and touch to calibrate"/>
+	
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/step_detection_preferences" >
+        
+        <!-- 
+        <ListPreference
+            android:dialogTitle="@string/dialog_title_step_detection_preference"
+            android:entries="@array/entries_step_detection_methods"
+            android:entryValues="@array/entryvalues_step_detection_methods"
+            android:key="step_detection_preference"
+            android:summary="@string/summary_step_detection_preference"
+            android:title="@string/title_step_detection_preference" />
+         -->
+         
+         <Preference 
+             android:key="step_length_calibration"
+             android:title="Caibrate step-length" />
+                
+        <EditTextPreference
+            android:key="long_moving_average_window_preference"
+            android:title="Long moving average window"
+            android:summary="in seconds (default value: 1.0)"/>
+        
+        <EditTextPreference
+            android:key="short_moving_average_window_preference"
+            android:title="Short moving average window"
+            android:summary="in seconds (default value: 0.2)" />
+        
+        <!-- 
+        <EditTextPreference
+            android:key="short_moving_average_window_preference"
+            android:summary="Frequency used by the low-pass filter for initial accelerometer signal preprocessing"
+            android:title="Low-pass frequency cutoff" />
+         -->
+        
+        <EditTextPreference
+            android:key="step_detection_power_cutoff_preference"
+            android:summary="Power threshold under which candidate steps are considered invalid (default value: 1000)"
+            android:title="Signal power cutoff threshold filter" />
+
+        <!-- 
+         <CheckBoxPreference
+            android:key="use_power_cutoff_preference"
+            android:summary="If checked candidate steps will be filtered by a signal power threshold"
+            android:title="Use power cutoff threshold" />
+         -->
+
+    </PreferenceCategory>
+
+	<PreferenceCategory android:title="Sensor Data Logging" >
+         
+    	<CheckBoxPreference
+            android:key="log_sensor_data_preference"
+            android:summary="If checked, sensor data will be logged to a file."
+            android:title="Log sensor data" />
+		    
+	 	<EditTextPreference
+            android:key="sensor_log_filename_preference"
+            android:summary="Name of the file for sensor logs. If relative path is given, then relative to sdcard directory."
+            android:title="Sensor log filename" />
+			        
+    </PreferenceCategory>
+
+	<PreferenceCategory android:title="Particle Filter Settings" >
+	
+        <EditTextPreference
+            android:key="particle_filter_number_of_particles_preference"
+            android:summary="Choose the number of particles used in the particle filter"
+            android:title="Number of particles" />
+       
+        <CheckBoxPreference
+            android:key="check_walls_collisions_preference"
+            android:summary="Particle is removed when it hits a wall"
+            android:title="Check walls collisions" />
+        
+        <CheckBoxPreference
+            android:key="check_stairs_collisions_preference"
+            android:summary="Particle will stop on each stair edge if checked"
+            android:title="Check stairs collisions" />
+        
+        
+        <!-- 
+        <CheckBoxPreference
+            android:key="check_transition_edge_collisions_preference"
+            android:summary="Particle is moved to a new area (new floor) if transition edge collision occurs"
+            android:title="Use area transfers" />
+         -->   
+
+        <EditTextPreference
+            android:key="step_probability_preference"
+            android:summary="Probability that the step event is not a false positive"
+            android:title="Step probability" />
+        
+        <EditTextPreference
+            android:key="step_length_preference"
+            android:summary="The distance each particle moves forward on a step event (in meters)."
+            android:title="Step length" />
+        
+        <EditTextPreference
+            android:key="step_length_spread_preference"
+            android:summary="Size of the interval in which the step length is randomized (in meters)."
+            android:title="Step length spread" />
+        
+        <EditTextPreference
+            android:key="heading_spread_preference"
+            android:summary="Size of the interval in which the heading deflection is randomized (in radians)."
+            android:title="Heading spread" />
+        
+    </PreferenceCategory>
+    
+	<PreferenceCategory android:title="WiFi Settings" >
+	   	
+	    <CheckBoxPreference
+            android:key="use_wifi_for_localization_preference"
+            android:summary="Particle filter will be updated with WiFi positions estimates."
+            android:title="Use WiFi for localization" />
+	    
+	    <ListPreference
+            android:dialogTitle="WiFi Metric"
+            android:entries="@array/entries_wifi_metric"
+            android:entryValues="@array/entryvalues_wifi_metric"
+            android:key="wifi_metric_preference"
+            android:summary="Metric used for computation of the location probability map"
+            android:title="WiFi localization metric" />
+	    
+	    <ListPreference
+            android:dialogTitle="WiFi Location estimate"
+            android:entries="@array/entries_wifi_candidate"
+            android:entryValues="@array/entryvalues_wifi_candidate"
+            android:key="wifi_candidate_preference"
+            android:summary="Method used for computation of the best location candidate"
+            android:title="WiFi location candidate method" />
+	    
+	    <EditTextPreference
+            android:key="fingerprint_recording_time_preference"
+            android:summary="The time interval used for RSS fingerprint recording, in seconds."
+            android:title="Fingerprint recording time" />
+	    
+	</PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/C:/Users/NICKT/workspace/IndoorNavigationSandbox/res/xml/preferences.xml -->

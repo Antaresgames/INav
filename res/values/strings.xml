@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello Sandbox!</string>
+    <string name="app_name">Indoor Navigation Sandbox</string>
+    <string name="pref_name">Preferences</string>
+    <string name="sensor_graph_name">Sensor Graph</string>
+    <string name="stochastic_name">Stochastic Model</string>
+    <string name="indoor_navigation_sandbox_name">Indoor Navigation Sandbox</string>
+    <string name="settings">Settings</string>
+    <string name="graph">Sensors</string>
+    <string name="reset">Reset</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="debug">Debug</string>
+    <string name="debug_on">Debug on</string>
+    <string name="debug_off">Debug off</string>
+    <string name="select_floor">Select floor</string>
+    <string name="set_position">Set position</string>
+    <string name="scan_code">Scan code</string>
+    <string name="reset_compass">Reset compass</string>
+    <string name="clear_trail">Clear trail</string>
+    <string name="help">Help</string>
+    <string name="calibrate_position">Calibrate</string>
+    <string name="position_calibrated">Calibrated</string>
+	<string name="navigation_screen_preferences">Navigation screen</string>
+	<string name="title_draw_map_preference">Draw building map</string>
+    <string name="summary_draw_map_preference">Toggles drawing of a building map on the background.</string>
+    <string name="title_draw_position_mark_preference">Draw position mark</string>
+    <string name="summary_draw_position_mark_preference">Toggles drawing of a position mark of the tracked device.</string>
+    <string name="title_draw_trail_preference">Draw walk trail</string>
+    <string name="summary_draw_trail_preference">Toggles drawing of a walk trail of the tracked device.</string>
+    <string name="navigation_method_preferences">Position computation</string>
+    <string name="dialog_title_position_providers_preference">Choose position computation method</string>
+    <string name="title_navigation_method_preference">Navigation method</string>
+    <string name="summary_navigation_method_preference">Choose between different position computation methods</string>
+    <string name="step_detection_preferences">Step detection</string>
+   	<string name="title_compass_type_preference">Compass Type</string>
+    <string name="summary_compass_type_preference">Compass models for heading measurement</string>
+    <string name="dialog_title_compass_type_preference">Choose compass type</string>
+   	<string name="title_step_detection_preference">Step detection</string>
+    <string name="summary_step_detection_preference">Various motion detection methods based on detection of steps</string>
+    <string name="dialog_title_step_detection_preference">Choose step detection method</string>
+	<string name="title_wifi">WiFi</string>
+    <string name="title_wifi_settings">WiFi settings</string> 
+    
+</resources>

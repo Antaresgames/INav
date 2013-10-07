@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/select_floor" android:title="@string/select_floor"/>
+	<item android:id="@+id/set_position" android:title="@string/set_position"/>
+	<item android:id="@+id/reset_compass" android:title="@string/reset_compass"/>
+	<item android:id="@+id/log_attempt" android:title="Log attempt"/>
+	<item android:id="@+id/pick_next" android:title="Pick next"/>
+	<item android:id="@+id/set_destination" android:title="Set destination"/>
+</menu>
+
+<!-- From: file:/C:/Users/NICKT/workspace/IndoorNavigationSandbox/res/menu/eval_menu.xml -->

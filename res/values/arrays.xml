@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_position_providers">
+        <item>Null</item>
+        <item>Random</item>
+        <item>Sensors</item>
+    </string-array>
+
+    <string-array name="entryvalues_position_providers">
+        <item>null</item>
+        <item>random</item>
+        <item>sensor</item>  
+    </string-array>
+
+        
+    <string-array name="entries_compass_types">
+        <item>Magnetic</item>
+        <item>Gyroscopic</item>
+        <item>Combined (gyro-magnetic)</item>
+    </string-array>
+
+    <string-array name="entryvalues_compass_types">
+        <item>magnetic</item>
+        <item>gyro</item>
+        <item>combined</item>
+    </string-array>
+    
+    <string-array name="entries_wifi_metric">
+        <item>Identity</item>
+        <item>Random</item>
+        <item>Euclid distance</item>
+        <item>Euclid distance, intersection</item>
+        <!--  <item>Euclid distance, weighted</item>  -->
+        <item>Hamming distance</item>
+        <!--  <item>Hamming, interval based</item>  -->
+    </string-array>
+
+    <string-array name="entryvalues_wifi_metric">
+        <item>identity</item>
+        <item>random</item>
+        <item>euclidian</item>
+        <item>euclidian_intersection</item>
+        <!-- <item>weighted_euclidian</item>  -->
+        <item>hamming</item>
+        <!--  <item>hamming_interval</item> -->
+    </string-array>
+    
+    
+    <string-array name="entries_wifi_candidate">
+        <!--  <item>None</item>  -->
+        <item>Nearest Neighbor</item>
+        <!-- <item>k-Nearest Neigbors</item>  -->
+        
+    </string-array>
+
+    <string-array name="entryvalues_wifi_candidate">
+        <!--  <item>none</item>  -->
+        <item>nearest_neigbor</item>
+        <!--  <item>knearest_neigbors</item> -->
+    </string-array>
+    
+    
+    <string-array name="entries_building_plan">
+        <item>Empty</item>
+        <!-- 
+        <item>My Flat</item>
+        <item>Mediahall</item>
+         -->
+         <item >Kamenice 3, budova 1</item>
+         <item >Kamenice 3, budova 2</item>
+         <item >Kamenice 5, budova A2</item>
+         <item >Kamenice 5, budova A3</item>
+         <item >Kamenice 5, budova A4</item>
+         <item >Kamenice 5, budova A5</item>
+         <item >Kamenice 5, budova A6</item>
+         <item >Kamenice 5, budova A7</item>
+         <item >Kamenice 5, budova A8</item>
+         <item >Kamenice 5, budova A9</item>
+         <item >Kamenice 5, budova A10</item>
+         <item >Kamenice 5, budova A11</item>
+         <item >Kamenice 5, budova A12</item>
+         <item >Kamenice 5, budova A13</item>
+         <item >Kamenice 5, budova A14</item>
+         <item >Kamenice 5, budova A15</item>
+         <item >Kamenice 5, budova A16</item>
+         <item >Kamenice 5, budova A17</item>
+         <item >Kamenice 5, budova A18</item>
+         <item >Kamenice 5, budova A19</item>
+         <item >Kamenice 5, budova A20</item>
+         <item >Kamenice 5, budova A21</item>
+         <item >Kamenice 5, budova A22</item>
+
+         <item >Kamenice 5, budova A29</item>
+         <item >Kamenice 5, budova A33</item>
+         <item >Kamenice 5, budova A34</item>
+         
+         <item>Kamenice 5, budova VH1</item>
+		<item>Kamenice 5, budova Z</item>
+		<item>Kamenice 5, budova LK-energocentrum</item>
+		<item>Kamenice 5, koridor ILBIT jih</item>
+		<item>Kamenice 5, koridor ILBIT sever</item>
+		<item>Kamenice 5, koridor FN</item>
+		<item>Kamenice 5, koridor AVVA zelená jih</item>
+		<item>Kamenice 5, koridor AVVA zelená sever</item>
+		<item>Kamenice 5, koridor CS</item>
+         
+    </string-array>
+
+    <string-array name="entryvalues_building_plan">
+        <item>empty</item>
+        <item>kam3b1</item>
+        <item>kam3b2</item>
+        <item>kam5bA2</item>
+        <item>kam5bA3</item>
+        <item>kam5bA4</item>
+        <item>kam5bA5</item>
+        <item>kam5bA6</item>
+        <item>kam5bA7</item>
+        <item>kam5bA8</item>
+        <item>kam5bA9</item>
+        <item>kam5bA10</item>
+        <item>kam5bA11</item>
+        <item>kam5bA12</item>
+        <item>kam5bA13</item>
+        <item>kam5bA14</item>
+        <item>kam5bA15</item>
+        <item>kam5bA16</item>
+        <item>kam5bA17</item>
+        <item>kam5bA18</item>
+        <item>kam5bA19</item>
+        <item>kam5bA20</item>
+        <item>kam5bA21</item>
+        <item>kam5bA22</item>
+        
+        <item>kam5bA29</item>
+        <item>kam5bA33</item>
+        <item>kam5bA34</item>
+        
+        <item>kam5bA40</item>
+        <item>kam5bA41</item>
+        <item>kam5bA42</item>
+        <item>kam5bA43</item>
+        <item>kam5bA44</item>
+        <item>kam5bA45</item>
+        <item>kam5bA46</item>
+        <item>kam5bA47</item>
+        <item>kam5bA48</item>
+        
+        
+    </string-array>
+    
+    
+</resources>
+

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res" >
+            <file
+                name="ic_nav"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable\ic_nav.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-hdpi\icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-ldpi\icon.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-mdpi\icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_calibrate_step"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\layout\activity_calibrate_step.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_pedestrian_navigation"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\layout\activity_pedestrian_navigation.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_scan"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\layout\activity_scan.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="eval_menu"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\eval_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="menu"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="rss_menu"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\rss_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="wifi_menu"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\menu\wifi_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values\arrays.xml"
+                qualifiers="" >
+                <string-array name="entries_building_plan" >
+                    <item>
+Empty
+                    </item>
+                    <!--
+        <item>My Flat</item>
+        <item>Mediahall</item>
+                    -->
+                    <item>
+Kamenice 3, budova 1
+                    </item>
+                    <item>
+Kamenice 3, budova 2
+                    </item>
+                    <item>
+Kamenice 5, budova A2
+                    </item>
+                    <item>
+Kamenice 5, budova A3
+                    </item>
+                    <item>
+Kamenice 5, budova A4
+                    </item>
+                    <item>
+Kamenice 5, budova A5
+                    </item>
+                    <item>
+Kamenice 5, budova A6
+                    </item>
+                    <item>
+Kamenice 5, budova A7
+                    </item>
+                    <item>
+Kamenice 5, budova A8
+                    </item>
+                    <item>
+Kamenice 5, budova A9
+                    </item>
+                    <item>
+Kamenice 5, budova A10
+                    </item>
+                    <item>
+Kamenice 5, budova A11
+                    </item>
+                    <item>
+Kamenice 5, budova A12
+                    </item>
+                    <item>
+Kamenice 5, budova A13
+                    </item>
+                    <item>
+Kamenice 5, budova A14
+                    </item>
+                    <item>
+Kamenice 5, budova A15
+                    </item>
+                    <item>
+Kamenice 5, budova A16
+                    </item>
+                    <item>
+Kamenice 5, budova A17
+                    </item>
+                    <item>
+Kamenice 5, budova A18
+                    </item>
+                    <item>
+Kamenice 5, budova A19
+                    </item>
+                    <item>
+Kamenice 5, budova A20
+                    </item>
+                    <item>
+Kamenice 5, budova A21
+                    </item>
+                    <item>
+Kamenice 5, budova A22
+                    </item>
+                    <item>
+Kamenice 5, budova A29
+                    </item>
+                    <item>
+Kamenice 5, budova A33
+                    </item>
+                    <item>
+Kamenice 5, budova A34
+                    </item>
+                    <item>
+Kamenice 5, budova VH1
+                    </item>
+                    <item>
+Kamenice 5, budova Z
+                    </item>
+                    <item>
+Kamenice 5, budova LK-energocentrum
+                    </item>
+                    <item>
+Kamenice 5, koridor ILBIT jih
+                    </item>
+                    <item>
+Kamenice 5, koridor ILBIT sever
+                    </item>
+                    <item>
+Kamenice 5, koridor FN
+                    </item>
+                    <item>
+Kamenice 5, koridor AVVA zelená jih
+                    </item>
+                    <item>
+Kamenice 5, koridor AVVA zelená sever
+                    </item>
+                    <item>
+Kamenice 5, koridor CS
+                    </item>
+                </string-array>
+                <string-array name="entryvalues_compass_types" >
+                    <item>
+magnetic
+                    </item>
+                    <item>
+gyro
+                    </item>
+                    <item>
+combined
+                    </item>
+                </string-array>
+                <string-array name="entries_wifi_candidate" >
+
+                    <!-- <item>None</item> -->
+                    <item>
+Nearest Neighbor
+                    </item>
+                    <!-- <item>k-Nearest Neigbors</item> -->
+
+                </string-array>
+                <string-array name="entryvalues_position_providers" >
+                    <item>
+null
+                    </item>
+                    <item>
+random
+                    </item>
+                    <item>
+sensor
+                    </item>
+                </string-array>
+                <string-array name="entryvalues_wifi_metric" >
+                    <item>
+identity
+                    </item>
+                    <item>
+random
+                    </item>
+                    <item>
+euclidian
+                    </item>
+                    <item>
+euclidian_intersection
+                    </item>
+                    <!-- <item>weighted_euclidian</item> -->
+                    <item>
+hamming
+                    </item>
+                    <!-- <item>hamming_interval</item> -->
+                </string-array>
+                <string-array name="entries_wifi_metric" >
+                    <item>
+Identity
+                    </item>
+                    <item>
+Random
+                    </item>
+                    <item>
+Euclid distance
+                    </item>
+                    <item>
+Euclid distance, intersection
+                    </item>
+                    <!-- <item>Euclid distance, weighted</item> -->
+                    <item>
+Hamming distance
+                    </item>
+                    <!-- <item>Hamming, interval based</item> -->
+                </string-array>
+                <string-array name="entries_position_providers" >
+                    <item>
+Null
+                    </item>
+                    <item>
+Random
+                    </item>
+                    <item>
+Sensors
+                    </item>
+                </string-array>
+                <string-array name="entryvalues_building_plan" >
+                    <item>
+empty
+                    </item>
+                    <item>
+kam3b1
+                    </item>
+                    <item>
+kam3b2
+                    </item>
+                    <item>
+kam5bA2
+                    </item>
+                    <item>
+kam5bA3
+                    </item>
+                    <item>
+kam5bA4
+                    </item>
+                    <item>
+kam5bA5
+                    </item>
+                    <item>
+kam5bA6
+                    </item>
+                    <item>
+kam5bA7
+                    </item>
+                    <item>
+kam5bA8
+                    </item>
+                    <item>
+kam5bA9
+                    </item>
+                    <item>
+kam5bA10
+                    </item>
+                    <item>
+kam5bA11
+                    </item>
+                    <item>
+kam5bA12
+                    </item>
+                    <item>
+kam5bA13
+                    </item>
+                    <item>
+kam5bA14
+                    </item>
+                    <item>
+kam5bA15
+                    </item>
+                    <item>
+kam5bA16
+                    </item>
+                    <item>
+kam5bA17
+                    </item>
+                    <item>
+kam5bA18
+                    </item>
+                    <item>
+kam5bA19
+                    </item>
+                    <item>
+kam5bA20
+                    </item>
+                    <item>
+kam5bA21
+                    </item>
+                    <item>
+kam5bA22
+                    </item>
+                    <item>
+kam5bA29
+                    </item>
+                    <item>
+kam5bA33
+                    </item>
+                    <item>
+kam5bA34
+                    </item>
+                    <item>
+kam5bA40
+                    </item>
+                    <item>
+kam5bA41
+                    </item>
+                    <item>
+kam5bA42
+                    </item>
+                    <item>
+kam5bA43
+                    </item>
+                    <item>
+kam5bA44
+                    </item>
+                    <item>
+kam5bA45
+                    </item>
+                    <item>
+kam5bA46
+                    </item>
+                    <item>
+kam5bA47
+                    </item>
+                    <item>
+kam5bA48
+                    </item>
+                </string-array>
+                <string-array name="entryvalues_wifi_candidate" >
+
+                    <!-- <item>none</item> -->
+                    <item>
+nearest_neigbor
+                    </item>
+                    <!-- <item>knearest_neigbors</item> -->
+                </string-array>
+                <string-array name="entries_compass_types" >
+                    <item>
+Magnetic
+                    </item>
+                    <item>
+Gyroscopic
+                    </item>
+                    <item>
+Combined (gyro-magnetic)
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values\strings.xml"
+                qualifiers="" >
+                <string name="title_navigation_method_preference" >Navigation method
+                </string>
+                <string name="navigation_screen_preferences" >Navigation screen
+                </string>
+                <string name="summary_compass_type_preference" >Compass models for heading measurement
+                </string>
+                <string name="navigation_method_preferences" >Position computation
+                </string>
+                <string name="dialog_title_compass_type_preference" >Choose compass type
+                </string>
+                <string name="title_draw_map_preference" >Draw building map
+                </string>
+                <string name="title_step_detection_preference" >Step detection
+                </string>
+                <string name="hello" >Hello Sandbox!
+                </string>
+                <string name="graph" >Sensors
+                </string>
+                <string name="summary_draw_position_mark_preference" >Toggles drawing of a position mark of the tracked device.
+                </string>
+                <string name="title_draw_position_mark_preference" >Draw position mark
+                </string>
+                <string name="resume" >Resume
+                </string>
+                <string name="calibrate_position" >Calibrate
+                </string>
+                <string name="dialog_title_position_providers_preference" >Choose position computation method
+                </string>
+                <string name="indoor_navigation_sandbox_name" >Indoor Navigation Sandbox
+                </string>
+                <string name="sensor_graph_name" >Sensor Graph
+                </string>
+                <string name="dialog_title_step_detection_preference" >Choose step detection method
+                </string>
+                <string name="debug" >Debug
+                </string>
+                <string name="title_wifi_settings" >WiFi settings
+                </string>
+                <string name="stochastic_name" >Stochastic Model
+                </string>
+                <string name="summary_draw_map_preference" >Toggles drawing of a building map on the background.
+                </string>
+                <string name="title_compass_type_preference" >Compass Type
+                </string>
+                <string name="step_detection_preferences" >Step detection
+                </string>
+                <string name="select_floor" >Select floor
+                </string>
+                <string name="scan_code" >Scan code
+                </string>
+                <string name="position_calibrated" >Calibrated
+                </string>
+                <string name="help" >Help
+                </string>
+                <string name="pref_name" >Preferences
+                </string>
+                <string name="title_draw_trail_preference" >Draw walk trail
+                </string>
+                <string name="debug_off" >Debug off
+                </string>
+                <string name="summary_navigation_method_preference" >Choose between different position computation methods
+                </string>
+                <string name="reset_compass" >Reset compass
+                </string>
+                <string name="title_wifi" >WiFi
+                </string>
+                <string name="set_position" >Set position
+                </string>
+                <string name="summary_step_detection_preference" >Various motion detection methods based on detection of steps
+                </string>
+                <string name="pause" >Pause
+                </string>
+                <string name="settings" >Settings
+                </string>
+                <string name="summary_draw_trail_preference" >Toggles drawing of a walk trail of the tracked device.
+                </string>
+                <string name="app_name" >Indoor Navigation Sandbox
+                </string>
+                <string name="debug_on" >Debug on
+                </string>
+                <string name="clear_trail" >Clear trail
+                </string>
+                <string name="reset" >Reset
+                </string>
+            </file>
+            <file
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="preferences"
+                path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\res\xml\preferences.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\NICKT\workspace\IndoorNavigationSandbox\build-types\debug\res" />
+    </dataSet>
+
+</merger>

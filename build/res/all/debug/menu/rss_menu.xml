@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/measurement" android:title="Add fingerprint"/>
+	<item android:id="@+id/localization" android:title="Find location"/>
+	<item android:id="@+id/clear_database" android:title="Clear database"/>
+	<item android:id="@+id/help" android:title="Help" android:enabled="false"/>
+	
+</menu>
+<!-- From: file:/C:/Users/NICKT/workspace/IndoorNavigationSandbox/res/menu/rss_menu.xml -->
